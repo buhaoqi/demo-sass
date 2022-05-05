@@ -1,14 +1,17 @@
 $light-color: #eee;
 $font-stack: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+$primary-color: lightgreen;
+$secondary-color: darkgreen;
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 html{
-    background-color: $light-color;
+    box-sizing: border-box;
     font-family: $font-stack;
     font-size: 100%;
-    line-height: 1.8;
+    
+}
+
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
 }
